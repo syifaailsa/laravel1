@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Buku;
 
 class BukuController extends Controller
 {
@@ -19,7 +20,7 @@ class BukuController extends Controller
      */
     public function create()
     {
-        return view('template.perpus.buku');
+        return view('buku.buku');
     }
 
     /**
